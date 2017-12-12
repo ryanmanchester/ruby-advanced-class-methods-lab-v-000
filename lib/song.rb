@@ -60,6 +60,7 @@ class Song
     artist_name = file_parts[0]
     song_name = file_parts[1].gsub(".mp3", "")
     song = self.create_by_name(song_name)
+  end
 
 
 
